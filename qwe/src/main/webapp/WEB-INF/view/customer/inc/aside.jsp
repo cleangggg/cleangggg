@@ -1,27 +1,30 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!-- aside ë¶€ë¶„ -->
+
+
 <aside class="aside">
-	<h1>°í°´¼¾ÅÍ</h1>
+	<h1>ê³ ê°ì„¼í„°</h1>
 
 	<nav class="menu text-menu first margin-top">
-		<h1>°í°´¼¾ÅÍ¸Þ´º</h1>
+		<h1>ê³ ê°ì„¼í„°ë©”ë‰´</h1>
 		<ul>
-			<li><a class="current" href="/customer/notice">°øÁö»çÇ×</a></li>
-			<li><a class="" href="/customer/faq">ÀÚÁÖÇÏ´Â Áú¹®</a></li>
-			<li><a class="" href="/customer/question">¼ö°­¹®ÀÇ</a></li>
-			<li><a class="" href="/customer/event">ÀÌº¥Æ®</a></li>
+			<li><a class="current" href="/customer/notice">ê³µì§€ì‚¬í•­</a></li>
+			<li><a class="" href="/customer/faq">ìžì£¼í•˜ëŠ” ì§ˆë¬¸</a></li>
+			<li><a class="" href="/customer/question">ìˆ˜ê°•ë¬¸ì˜</a></li>
+			<li><a class="" href="/customer/event">ì´ë²¤íŠ¸</a></li>
 
 		</ul>
 	</nav>
 
 
 	<nav class="menu">
-		<h1>Çù·Â¾÷Ã¼</h1>
+		<h1>í˜‘ë ¥ì—…ì²´</h1>
 		<ul>
 			<li><a target="_blank" href="http://www.notepubs.com"><img
-					src="/images/notepubs.png" alt="³ëÆ®Æà½º" /></a></li>
+					src="/images/notepubs.png" alt="ë…¸íŠ¸íŽìŠ¤" /></a></li>
 			<li><a target="_blank" href="http://www.namoolab.com"><img
-					src="/images/namoolab.png" alt="³ª¹«·¦¿¬±¸¼Ò" /></a></li>
+					src="/images/namoolab.png" alt="ë‚˜ë¬´ëž©ì—°êµ¬ì†Œ" /></a></li>
 
 		</ul>
 	</nav>

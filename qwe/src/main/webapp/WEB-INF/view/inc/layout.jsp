@@ -18,19 +18,14 @@
 
 <body>
 	<!-- header 부분 -->
-	
+
 	<tiles:insertAttribute name="header" />
-
-
-
+	<tiles:insertAttribute name="body" />
+	<tiles:insertAttribute name="footer" />
+	
 
 	<!-- --------------------------- <body> --------------------------------------- -->
-	<tiles:insertAttribute name="body" />
-
-
-	<!-- ------------------- <footer> --------------------------------------- -->
-	<tiles:insertAttribute name="footer" />
-
+	
 
 </body>
 
