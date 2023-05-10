@@ -10,7 +10,8 @@ public class NoticeController {
 	@RequestMapping("/customer/notice/list") // list,detail,edit,reg
 	public String list(Model model) {
 		model.addAttribute("test","hello~~" );
-		return "customer/notice/list";
+//		return "customer/notice/list";//ResourceViewResolver
+		return "customer.notice.list";//TilesViewResolver
 	}
 
 	@RequestMapping("/customer/notice/detail") // list,detail,edit,reg
@@ -18,7 +19,7 @@ public class NoticeController {
 
 		
 		
-		return "customer/notice/detail";
+		return "customer.notice.detail";
 	}
 
 }
