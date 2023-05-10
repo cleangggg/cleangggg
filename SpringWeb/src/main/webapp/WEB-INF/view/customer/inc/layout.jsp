@@ -42,8 +42,12 @@
 			<!-- --------------------------- main --------------------------------------- -->
 
 
+<<<<<<< HEAD
 <tiles:insertAttribute name="body"/>
 
+=======
+			<tiles:insertAttribute name="main" />
+>>>>>>> 8678eaea59cd9956a8662fe3c3edb577a53c96eb
 		
 		
 			
