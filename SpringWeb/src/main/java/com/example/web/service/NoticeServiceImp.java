@@ -3,10 +3,13 @@ package com.example.web.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.web.dao.NoticeDao;
 import com.example.web.entity.Notice;
 
+
+@Service
 public class NoticeServiceImp implements NoticeService{
 	@Autowired
 	private NoticeDao noticeDao;
@@ -15,15 +18,15 @@ public class NoticeServiceImp implements NoticeService{
 	public List<Notice> getList() {
 
 		List<Notice> list = noticeDao.getList();
-		return null;
+		return list;
 	}
 
 	@Override
-	public Notice get(int i) {
+	public Notice get(int id) {
 		
 		Notice notice =noticeDao.get(id); 
 		
-		return null;
+		return notice;
 	}
 
 }

@@ -23,9 +23,8 @@ public class TilesConfig {
        viewResolver.setOrder(1);
        return viewResolver;
    }    
-<<<<<<< HEAD
+
 }
 
-=======
-}
->>>>>>> 8678eaea59cd9956a8662fe3c3edb577a53c96eb
+
+
