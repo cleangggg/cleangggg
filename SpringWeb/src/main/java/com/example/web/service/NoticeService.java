@@ -8,8 +8,6 @@ public interface NoticeService {
 
 	List<Notice> getList();
 
-	Notice get(int i);
-
-	
+	Notice get(int id);
 	
 }
