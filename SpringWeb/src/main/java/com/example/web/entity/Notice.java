@@ -7,11 +7,13 @@ public class Notice {
 	private int id;
 	private String title;
 	private String content;
-	private Date regdaate;
+	private Date regdate;
 	private int hit;
 	private boolean pub;
-	private int memberId;	
-	public Notice() {}
+	private int memberID;
+
+	public Notice() {
+	}
 
 	public int getId() {
 		return id;
@@ -37,12 +39,13 @@ public class Notice {
 		this.content = content;
 	}
 
-	public Date getRegdaate() {
-		return regdaate;
+	public Date getRegdate() {
+		return regdate;
 	}
 
-	public void setRegdaate(Date regdaate) {
-		this.regdaate = regdaate;
+	public void setRegdate(Date regdate) {
+		this.regdate = regdate;
+
 	}
 
 	public int getHit() {
@@ -61,27 +64,30 @@ public class Notice {
 		this.pub = pub;
 	}
 
-	public int getMemberId() {
-		return memberId;
+	public int getMemberID() {
+		return memberID;
 	}
 
-	public void setMemberId(int memberId) {
-		this.memberId = memberId;
+	public void setMemberID(int memberID) {
+		this.memberID = memberID;
 	}
 
-	public Notice(int id, String title, String content, Date regdaate, int hit, boolean pub, int memberId) {
+	public Notice(int id, String title, String content, Date regdate, int hit, boolean pub, int memberID) {
+
 		super();
 		this.id = id;
 		this.title = title;
 		this.content = content;
-		this.regdaate = regdaate;
+		this.regdate = regdate;
 		this.hit = hit;
 		this.pub = pub;
-		this.memberId = memberId;
+		this.memberID = memberID;
 	}
-	
-	
-	
-	
-	
+
+	@Override
+	public String toString() {
+		return "Notice [id=" + id + ", title=" + title + ", content=" + content + ", regdate=" + regdate + ", hit="
+				+ hit + ", pub=" + pub + ", memberId=" + memberID + "]";
+	}
+
 }

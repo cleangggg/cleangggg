@@ -4,23 +4,7 @@
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 
-<<<<<<< HEAD
-  <definition name="customer.*.*" template="/WEB-INF/view/customer/inc/layout.jsp">
-    <put-attribute name="title" value="공지사항" />
-    <put-attribute name="header" value="/WEB-INF/view/inc/header.jsp" />
-    <put-attribute name="visual" value="/WEB-INF/view/customer/inc/visual.jsp" />
-    <put-attribute name="aside" value="/WEB-INF/view/customer/inc/aside.jsp" />
-    <put-attribute name="body" value="/WEB-INF/view/customer/{1}/{2}.jsp" />
-    <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
-  </definition>
-  <definition name="admin.*.*.*" template="/WEB-INF/view/admin/inc/layout.jsp">
-    <put-attribute name="title" value="공지사항" />
-    <put-attribute name="header" value="/WEB-INF/view/inc/header.jsp" />
-    <put-attribute name="visual" value="/WEB-INF/view/admin/inc/visual.jsp" />
-    <put-attribute name="aside" value="/WEB-INF/view/admin/inc/aside.jsp" />
-    <put-attribute name="body" value="/WEB-INF/view/admin/{1}/{2}/{3}.jsp" />
-    <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
-=======
+
 <definition name= "layout.common" template="/WEB-INF/view/inc/layout.jsp">
 	<put-attribute name="title" value="공지사항" />
     <put-attribute name="header" value="/WEB-INF/view/inc/header.jsp" />
@@ -47,6 +31,6 @@
     <put-attribute name="visual" value="/WEB-INF/view/customer/inc/visual.jsp" />
     <put-attribute name="aside" value="/WEB-INF/view/customer/inc/aside.jsp" />
     <put-attribute name="main" value="/WEB-INF/view/customer/{1}/{2}.jsp" />
->>>>>>> 8678eaea59cd9956a8662fe3c3edb577a53c96eb
+
   </definition>
 </tiles-definitions>

@@ -1,23 +1,34 @@
 package com.example.web.controller.customer;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.example.web.entity.Notice;
+import com.example.web.service.NoticeService;
+
 @Controller
+@RequestMapping("/customer/notice/")
 public class NoticeController {
-
-	@RequestMapping("/customer/notice/list") // list,detail,edit,reg
+	
+	@Autowired
+	private NoticeService service;
+	
+	@RequestMapping("list") // list,detail,edit,reg
 	public String list(Model model) {
-		model.addAttribute("test","hello~~" );
 
-//		return "customer/notice/list";//ResourceViewResolver
-		return "customer.notice.list";//TilesViewResolver
-
+		
+		List<Notice> list = service.getList();
+		System.out.println(list);
+		model.addAttribute("list", list);
+		return "customer.notice.list";
 
 	}
 
-	@RequestMapping("/customer/notice/detail") // list,detail,edit,reg
+	@RequestMapping("detail") // list,detail,edit,reg
 	public String detail() {
 
 		

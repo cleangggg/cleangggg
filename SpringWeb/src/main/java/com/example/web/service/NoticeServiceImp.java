@@ -9,23 +9,27 @@ import com.example.web.dao.NoticeDao;
 import com.example.web.entity.Notice;
 
 
+
 @Service
 public class NoticeServiceImp implements NoticeService{
-	@Autowired
-	private NoticeDao noticeDao;
+	@Autowired(required = false)
+	private NoticeDao	 noticeDao;
 	
 	@Override
 	public List<Notice> getList() {
 
 		List<Notice> list = noticeDao.getList();
+
 		return list;
 	}
 
+ 
 	@Override
 	public Notice get(int id) {
-		
+
 		Notice notice =noticeDao.get(id); 
-		
+		 
+
 		return notice;
 	}
 

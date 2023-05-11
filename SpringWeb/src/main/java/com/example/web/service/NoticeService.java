@@ -11,5 +11,4 @@ public interface NoticeService {
 	Notice get(int id);
 
 	
-	
 }

@@ -20,4 +20,4 @@ alter table notice add pub number(1,0) ;
 --alter table notice add memberid int;
 
 
-insert into notice values ( 1,2,3,sysdate,5,6);
+insert into notice values ( 1,2,3,sysdate,1,1,6);
