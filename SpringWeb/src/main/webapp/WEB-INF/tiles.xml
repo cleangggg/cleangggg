@@ -19,8 +19,6 @@
     <put-attribute name="footer" value="/WEB-INF/view/inc/footer.jsp" />
   </definition>
 
-
-
   <definition name="admin.*.*.*" template="/WEB-INF/view/admin/inc/layout.jsp" extends="layout.common">
     <put-attribute name="visual" value="/WEB-INF/view/admin/inc/visual.jsp" />
     <put-attribute name="aside" value="/WEB-INF/view/admin/inc/aside.jsp" />
