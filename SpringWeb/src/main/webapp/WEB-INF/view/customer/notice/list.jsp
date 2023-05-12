@@ -39,15 +39,15 @@
 				</tr>
 			</thead>
 			<tbody>
-				<c:forEach var="n" items="${list}">
+			<c:forEach var="n" items="${list}">
 					<tr>
 						<td>${n.id}</td>
 						<td class="title indent text-align-left"><a href="detail.html">${n.title}</a></td>
-						<td>${n.memberId }</td>
+						<td>${n.memberID }</td>
 						<td>${n.regdate }</td>
 						<td>${n.hit}</td>
 					</tr>
-				</c:forEach>			
+			</c:forEach>			
 			</tbody>
 		</table>
 	</div>
